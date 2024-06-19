@@ -1,0 +1,24 @@
+Int
+    Dành cho số nguyên:123
+    Int
+Numeric(precision, scale)
+    Dành cho số thập phân
+    precision: độ chính xác số đứng trước vị trí thập phân
+    scale: là số sau vị trí thập phân
+
+Text
+    Chuỗi không có giưới hạn độ dài
+VARCHAR(n)
+    Chuỗi độ dài nguyên
+Boolean
+    Chấp nhận true,false or NULL
+
+DATE
+    Format:YYYY-MM-DD
+TIMESTAMP
+    Format: YYYY-MM-DD HH:MI:SS
+
+TIMESTAMP WITH TIMEZONE
+    2024-02-06 15:04:05+00:00
+    Giống với TIMESTAMP    Chỉ định thêm múi giờ
+    

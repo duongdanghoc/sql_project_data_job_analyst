@@ -1,0 +1,30 @@
+Create or replace function func_name(fieldName datatype)
+return <return_datatype>
+as
+$$
+begin
+	<type in function body here>
+end;
+$$
+language plpgsql;
+
+
+--parameter type(in*|out|inout|VARIADIC**) *default **variable(Số lượng tham số)
+create or replace function fnSwap({parametor type} fieldName datatype)
+as
+$$
+begin
+	<type in function body here>
+end;
+$$
+language plpgsql;
+
+
+
+if <condition> then
+	<statements>
+elsif <condition> then
+	<statements>
+else
+ 	<statements>
+end if;
